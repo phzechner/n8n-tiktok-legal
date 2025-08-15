@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Datenschutzerklärung (Privacy Policy)</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; margin: 2rem auto; max-width: 900px; padding: 0 1rem; }
+    h1,h2,h3 { line-height: 1.25; }
+    small { color: #555; }
+    ul { margin-left: 1.2rem; }
+    code { background: #f2f2f2; padding: 0.1rem 0.3rem; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h1>Datenschutzerklärung (Privacy Policy)</h1>
+  <p><small>Letzte Aktualisierung: <span id="date"></span></small></p>
+
+  <p>Diese Datenschutzerklärung informiert darüber, wie <strong>[Dein Firmen-/Projektname]</strong> („wir/uns“) personenbezogene Daten im Zusammenhang mit der Nutzung unseres Dienstes für die TikTok Content Posting API verarbeitet. Wir handeln im Einklang mit der EU‑DSGVO (GDPR) und österreichischem Recht.</p>
+
+  <h2>1. Verantwortlicher</h2>
+  <p><strong>[Dein Firmen-/Projektname]</strong><br>
+     [Adresse, z. B. Straße, PLZ Ort, Österreich]<br>
+     E‑Mail: [deine@emailadresse.at]</p>
+
+  <h2>2. Kategorien personenbezogener Daten</h2>
+  <ul>
+    <li>OAuth‑Daten: <code>open_id</code>, Access Tokens, Scopes (z. B. <code>video.upload</code>, <code>video.publish</code>), Token‑Ablaufzeit.</li>
+    <li>Nutzungs-/Meta‑Daten: Zeitpunkte des Uploads/Publish, Protokolle/Fehlerlogs (ohne Inhaltsanalyse).</li>
+    <li>Inhaltsdaten: Videodatei, Beschreibungstext, Miniaturbild (falls bereitgestellt) – ausschließlich zur Übermittlung an TikTok.</li>
+  </ul>
+
+  <h2>3. Zwecke und Rechtsgrundlagen</h2>
+  <ul>
+    <li>Bereitstellung des Dienstes (Upload & Publish zu TikTok) – Art. 6 Abs. 1 b DSGVO (Vertragserfüllung).</li>
+    <li>Sicherheit/Fehleranalyse (Logdaten) – Art. 6 Abs. 1 f DSGVO (berechtigtes Interesse).</li>
+    <li>Rechtliche Pflichten (Nachweis/Compliance) – Art. 6 Abs. 1 c DSGVO.</li>
+  </ul>
+
+  <h2>4. Speicherung & Löschfristen</h2>
+  <ul>
+    <li>Access Tokens: so kurz wie möglich, maximal bis Ablauf/Revocation.</li>
+    <li>Log‑/Metadaten: in der Regel 90 Tage, sofern keine längeren gesetzlichen Pflichten bestehen.</li>
+    <li>Videodateien: nur für die Dauer der Übermittlung/Verarbeitung; keine dauerhafte Speicherung ohne separate Einwilligung.</li>
+  </ul>
+
+  <h2>5. Empfänger</h2>
+  <ul>
+    <li>TikTok Technology Limited bzw. verbundene Unternehmen als Plattformbetreiber.</li>
+    <li>Technische Dienstleister (z. B. n8n Cloud, Cloud‑Speicher, Logging/Monitoring), mit denen Auftragsverarbeitungsverträge bestehen oder die angemessen verpflichtet werden.</li>
+  </ul>
+
+  <h2>6. Internationale Datenübermittlungen</h2>
+  <p>Je nach Standort der Dienstleister kann eine Übermittlung in Drittländer erfolgen. In diesem Fall stellen wir geeignete Garantien sicher (Art. 46 DSGVO), z. B. EU‑Standardvertragsklauseln.</p>
+
+  <h2>7. Sicherheit</h2>
+  <p>Wir treffen angemessene technische und organisatorische Maßnahmen (z. B. verschlüsselte Übertragung, Zugriffsbeschränkungen, Geheimhaltung von API‑Schlüsseln, Protokollierung von Zugriffen).</p>
+
+  <h2>8. Deine Rechte</h2>
+  <ul>
+    <li>Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit.</li>
+    <li>Widerspruch gegen Verarbeitung auf Basis berechtigter Interessen (Art. 21 DSGVO).</li>
+    <li>Beschwerde bei einer Aufsichtsbehörde (in Österreich: <em>Österreichische Datenschutzbehörde</em>).</li>
+  </ul>
+
+  <h2>9. Keine Verarbeitung von Daten Minderjähriger</h2>
+  <p>Unser Dienst richtet sich ausschließlich an volljährige Nutzer (18+). Wir verarbeiten wissentlich keine Daten von Kindern.</p>
+
+  <h2>10. Cookies/Tracking</h2>
+  <p>Der Dienst verwendet standardmäßig keine Cookies oder vergleichbare Technologien. Sofern einzelne Hosting‑Plattformen (z. B. Notion, GitHub Pages) Cookies setzen, gelten deren Richtlinien.</p>
+
+  <h2>11. Änderungen</h2>
+  <p>Wir können diese Erklärung aktualisieren. Maßgeblich ist die jeweils veröffentlichte Fassung.</p>
+
+  <h2>12. Kontakt</h2>
+  <p>Für Anfragen wende dich bitte an die oben angegebenen Kontaktdaten.</p>
+
+  <script>
+    document.getElementById('date').textContent = new Date().toISOString().slice(0,10);
+  </script>
+</body>
+</html>
